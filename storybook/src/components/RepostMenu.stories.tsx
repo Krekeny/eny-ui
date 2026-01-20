@@ -11,7 +11,7 @@ const GREEN = "#22b022";
 const meta = {
   component: RepostMenu,
   args: {
-    isReposted: true,
+    isReposted: false,
     repostCount: 17,
     repostColor: "#222",
     repostFontWeight: "500",
