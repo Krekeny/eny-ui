@@ -51,10 +51,9 @@
     "react-native-builder-bob": "^0.40.16"
   },
   "devDependencies": {
-    "typescript": "~5.9.2",
-    "@types/react": "~19.1.10",
-    "@types/react-native": "^0.73.0",
-    "@storybook/react-native": "10.0.2"
+    "@storybook/react-native": "10.0.2",
+    "@types/react": "^19.2.14",
+    "typescript": "~5.9.2"
   },
   "peerDependencies": {
     "expo": "*",
