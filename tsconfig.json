@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
+  "target": "ES2020",
+  "module": "ESNext",
     "lib": [
       "ES2020"
     ],
@@ -13,7 +13,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "noEmit": false,
@@ -29,6 +29,5 @@
     "storybook/src/**/*.stories.tsx",
     "storybook/src/**/*.stories.ts",
     "node_modules"
-  ],
-  "extends": "expo/tsconfig.base"
+  ]
 }
